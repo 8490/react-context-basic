@@ -7,7 +7,7 @@ const StudentList = () => {
 
   return (
     <div>
-      <h1>User List</h1>
+      <h2>User List</h2>
       {students.map((student) => (
         <StudentItem key={student.id} student={student} />
       ))}
